@@ -2864,7 +2864,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light:hover {
-  color: #212529;
+  color: #ffffff;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
@@ -9863,4 +9863,283 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+.login-body {
+  position: relative;
+  margin: auto;
+  background-image: url(../img/bg/bg-auth1.png);
+  background-size: auto;
+  background-position: center;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.login-body .log-header {
+  margin: 0 auto;
+  padding: 30px 0 0;
+  max-width: 595px;
+  width: 100%;
+}
+
+.logo-dark {
+  margin: auto;
+  display: block;
+}
+
+.login-wrapper {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  height: calc(100vh - 80px);
+  flex-wrap: wrap;
+}
+.login-wrapper .loginbox {
+  margin: auto;
+  max-width: 595px;
+  width: 100%;
+  margin: 0;
+  padding: 100px 0;
+}
+@media (max-width: 1399.98px) {
+  .login-wrapper .loginbox {
+    margin: 0;
+    padding: 70px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .login-wrapper .loginbox {
+    margin: 0;
+    padding: 50px 0;
+  }
+}
+@media (max-width: 767.78px) {
+  .login-wrapper .loginbox .login-auth {
+    width: 100%;
+  }
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .sign-group {
+  margin: 0 0 32px;
+  padding: 0;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .sign-group span i {
+  line-height: 0;
+  margin-right: 6px;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .sign-group a {
+  font-size: 14px;
+  color: #FD3358;
+  padding: 0;
+  font-weight: 500;
+  border: 0;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .sign-group a:hover {
+  color:white;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group label {
+  margin: 0 0 5px 0;
+  font-weight: 400;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group label span {
+  color: #FD3358;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group .custom_check {
+  margin: 20px 0 0;
+  padding: 0 0 0 24px;
+  color: #8A909A;
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 400;
+  user-select: none;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group .custom_check input:checked ~ .checkmark {
+  background-color: #8A909A;
+  border-color: #8A909A;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group .custom_check input:checked ~ .checkmark:after {
+  display: block;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group .custom_check span {
+  color: #8A909A;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group .custom_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group .custom_check .checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #E3E3E3;
+  background-color: #FFF;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap .form-group .custom_check .checkmark::after {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  display: none;
+  color: #FFF;
+  font-size: 9px;
+}
+.login-wrapper .loginbox .login-auth .login-auth-wrap h1 {
+  margin: 0 0 32px;
+  font-size: 32px;
+  max-width: 500px;
+}
+@media (max-width: 991.98px) {
+  .login-wrapper .loginbox .login-auth .login-auth-wrap h1 {
+    font-size: 28px;
+    margin: 0 0 28px;
+  }
+}
+@media (max-width: 767.78px) {
+  .login-wrapper .loginbox .login-auth .login-auth-wrap h1 {
+    font-size: 26px;
+  }
+}
+.login-wrapper .loginbox .login-auth .forgotpass a {
+  color: #FFF;
+}
+.login-wrapper .loginbox .login-auth .forgotpass a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+.login-wrapper .loginbox .login-auth .dont-have {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 32px 0 0;
+}
+.login-wrapper .loginbox .login-auth .dont-have a {
+  color: #FD3358;
+  font-weight: 500;
+}
+.login-wrapper .loginbox .login-auth .dont-have a:hover {
+  color: #6C60FE;
+}
+.login-wrapper .loginbox .login-auth .social-login {
+  text-align: center;
+}
+.login-wrapper .loginbox .login-auth .social-login span {
+  color: #FFF;
+  margin-right: 8px;
+}
+.login-wrapper .loginbox .login-auth .social-login a {
+  background: #FFF;
+  border: 1px solid #FFF;
+  box-shadow: inset 0 0 0 0 #FFF;
+  text-align: center;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  line-height: 20px;
+  color: #8A909A;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.login-wrapper .loginbox .login-auth .social-login a:hover {
+  color: #0E0E46;
+  background-color: #F6F6F9;
+  border: 1px solid #F6F6F9;
+  box-shadow: inset 0 0 0 0 #FFF;
+}
+.login-wrapper .loginbox .account-subtitle {
+  color: #FFF;
+  margin: 0 0 30px;
+}
+.login-wrapper .loginbox .login-or {
+  color: #FFF;
+  margin: 30px auto;
+  padding: 0 0 30px;
+  position: relative;
+  max-width: 385px;
+  overflow: hidden;
+}
+@media (max-width: 767.78px) {
+  .login-wrapper .loginbox .login-or {
+    margin: 15px auto;
+    padding: 0 0 30px;
+  }
+}
+.login-wrapper .loginbox .or-line {
+  background-color: #FFF;
+  height: 1px;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: block;
+}
+@media (max-width: 575.98px) {
+  .login-wrapper .loginbox .or-line {
+    display: none;
+  }
+}
+.login-wrapper .loginbox .span-or-log {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  left: 25%;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 200px;
+}
+@media (max-width: 575.98px) {
+  .login-wrapper .loginbox .span-or-log {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+  }
+}
+.login-wrapper .loginbox .span-or-log::before {
+  width: 95px;
+  content: "";
+  border-top: 1px solid #EDECF8;
+  position: absolute;
+  top: 50%;
+  left: -95px;
+}
+.login-wrapper .loginbox .span-or-log::after {
+  width: 95px;
+  content: "";
+  border-top: 1px solid #EDECF8;
+  position: absolute;
+  top: 50%;
+  right: -95px;
+}
+.login-wrapper .loginbox .lock-user {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.login-wrapper .loginbox .lock-user img {
+  margin-bottom: 15px;
+  width: 100px;
+}
+.login-wrapper .loginbox .toggle-password {
+  position: absolute;
+  right: 17px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.login-wrapper .loginbox .toggle-password.fa-eye {
+  margin-right: 1px;
+  font-weight: 500;
+}
+
+.log-footer .copyright {
+  border-top: 0;
+  padding: 28px 0;
+  text-align: center;
+}
+.log-footer .copyright .copyright-text p {
+  font-size: 14px;
+  color: #FFF;
 }
